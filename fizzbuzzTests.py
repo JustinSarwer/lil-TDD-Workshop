@@ -10,5 +10,8 @@ def test_fizzbuzz3ShouldRetFizz():
 def test_fizzbuzz5ShouldRetBuzz():
     fizzbuzz(5).should.eql("Buzz")
 
-def test_fizzbuzz10ShouldRestBuzz():
+def test_fizzbuzz10ShouldRetBuzz():
     fizzbuzz(10).should.eql("Buzz")
+
+def test_fizzbuzz15ShouldShouldRetFizzBuzz():
+    fizzbuzz(15).should.eql("FizzBuzz")
