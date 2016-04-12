@@ -5,4 +5,10 @@ def test_fizzbuzz1ShouldEql1():
     fizzbuzz(1).should.eql(1)
 
 def test_fizzbuzz3ShouldRetFizz():
-    fizzbuzz(3).should.equal("Fizz")
+    fizzbuzz(3).should.eql("Fizz")
+
+def test_fizzbuzz5ShouldRetBuzz():
+    fizzbuzz(5).should.eql("Buzz")
+
+def test_fizzbuzz10ShouldRestBuzz():
+    fizzbuzz(10).should.eql("Buzz")
