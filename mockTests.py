@@ -17,7 +17,7 @@ class Device:
             return resp
 
         return self.cache[i]
-
+        
 def test_deviceGetCache():
     proxy = Proxy()
     proxy.get = MagicMock()
